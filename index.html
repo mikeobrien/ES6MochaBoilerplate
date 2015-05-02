@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ES6 + Mocha Boilerplate</title>
+  </head>
+  <body>
+
+    <div id="content"></div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- ES6 Support -->
+    <script src="//cdn.rawgit.com/ModuleLoader/es6-module-loader/master/dist/es6-module-loader.js"></script>
+    <script src="//cdn.rawgit.com/systemjs/systemjs/master/dist/system.js"></script>
+    <script src="//cdn.rawgit.com/zloirock/core-js/master/client/core.min.js"></script>
+    <!-- ES6 Support -->
+
+    <script>
+        System.import('app').then(function(app) { app.run(); });
+    </script>
+  </body>
+</html>

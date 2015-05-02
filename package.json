@@ -1,0 +1,14 @@
+{
+  "name": "ES6MochaBoilerplate",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-babel": "^5.1.0",
+    "core-js": "^0.9.6",
+    "gulp-webserver": "^0.9.0",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
